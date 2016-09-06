@@ -52,6 +52,7 @@ int main()
 
 	a.qput(20);
 	b.qput(1);
+	b.qput(23);
 
 
 	cout << "Содержимое очереди a:\n";
@@ -59,7 +60,7 @@ int main()
 	cout << a.qget() << "\n";
 	cout << b.qget() << " ";
 	cout << b.qget() << "\n";
-
+	cout << b.qget() << "\n";
 
 
 
